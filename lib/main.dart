@@ -14,7 +14,7 @@ class MyApp extends StatelessWidget {
         appBar: AppBar( title: Text('앱임')),
         body: Container(
           width: 50, height: 50, color: Colors.blue,
-          margin: EdgeInsets.all(2),
+          margin: EdgeInsets.all(20),
 
         )
       )
