@@ -13,8 +13,9 @@ class MyApp extends StatelessWidget {
       home: Scaffold(
         appBar: AppBar( title: Text('앱임')),
         body: Container(
-          width: 50, height: 50, color: Colors.blue,
-          margin: EdgeInsets.all(20),
+          width: 150, height: 50, color: Colors.blue,
+          padding: EdgeInsets.all(5),
+          child: Text('ddddd')
 
         )
       )
