@@ -14,11 +14,11 @@ class MyApp extends StatelessWidget {
         appBar: AppBar( title: Text('앱임')),
         body: SizedBox(
           child: Text('안녕하세요',
-              style: TextStyle( fontSize: 30),
+              style: TextStyle( fontWeight: FontWeight.w700),
           ),
         ),
       ),
     );
   }
 }
- //double.infinity 를 width나 height 뒤에 숫자대신 넣으면 무한대로 색입혀줌
+
