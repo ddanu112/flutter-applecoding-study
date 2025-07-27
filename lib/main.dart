@@ -17,20 +17,8 @@ class MyApp extends StatelessWidget {
           margin: EdgeInsets.all(2),
 
         )
-
-
-            )
-
-            );
-
-
-          
-
-
-
-
-
-
+      )
+    );
   }
 }
 
