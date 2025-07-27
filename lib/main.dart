@@ -13,10 +13,11 @@ class MyApp extends StatelessWidget {
       home: Scaffold(
         appBar: AppBar( title: Text('앱임')),
         body: SizedBox(
-          child: Text('안녕하세요',
-              style: TextButton(child: ,
-                onPressed: (){},
-              ),
+          child: ElevatedButton(
+            child: Text('글자'),
+            onPressed: (){},
+            style: ButtonStyle()
+
           ),
         ),
       ),
@@ -24,3 +25,4 @@ class MyApp extends StatelessWidget {
   }
 }
 
+//TextButton(), IconButton(), ElevatedButton()
