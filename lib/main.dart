@@ -14,7 +14,7 @@ class MyApp extends StatelessWidget {
         appBar: AppBar( title: Text('앱임')),
         body: SizedBox(
           child: Text('안녕하세요',
-              style: TextStyle( color: Color(0xff6ca591)),
+              style: TextStyle( fontSize: 30),
           ),
         ),
       ),
